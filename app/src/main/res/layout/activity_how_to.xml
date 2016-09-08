@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context="org.ldpgames.kurt.bryg.HowToActivity"
+                android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How To Play"
+        android:id="@+id/howToTitle"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press the button whose colour corresponds to the colour written above the buttons. You will be playing against the clock. "
+        android:id="@+id/rulesOne"
+        android:layout_marginTop="36dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp"
+        android:layout_below="@+id/howToTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Every 20 points scored will reset the clock, and add a colour. Once all four colours have been unlocked, the clock will reset every 20 points. Selecting the wrong button will end the game immediately! \n\nHave Fun!"
+        android:id="@+id/rulesTwo"
+        android:layout_marginTop="44dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp"
+        android:layout_below="@+id/rulesOne"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/homeHowToButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/start_button"
+        android:textSize="30dp" />
+</RelativeLayout>

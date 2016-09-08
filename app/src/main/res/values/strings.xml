@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">B.R.Y.G</string>
+    <string name="blue_red_yellow_green">
+        <font color="red">Blue</font>
+        <font color="yellow">Red</font>
+        <font color="green">Yellow</font>
+        <font color="blue">Green</font>
+    </string>
+</resources>
